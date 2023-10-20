@@ -12,10 +12,9 @@ This tutorial assumes you have installed a working version of anaconda on your c
 In order to install the necessary packages and start jupyter notebook type in your anaconda terminal:
 
 1. cd /this/cloned or downloaded/github/repo
-2. conda env create --name practical --file FISH.yml
-3. conda activate FISH
-4. cd notebooks 
-5. jupyter notebook
+2. conda env create --name practical --file practical.yml
+3. conda activate practical
+4. jupyter notebook
  
 # Example dataset
 Example dataset is avalaibe in the folder data, which will be read when executing the notebooks.
