@@ -6,7 +6,7 @@ Notebooks
   1. 00_Introduction_to_bioImages
   2. 01_Segmentation_and_the_Napari_image_viewer
 
-This tutorial assumes you have installed a working version of anaconda on your computer. Open the anacondona terminal and perform the steps under requirements and installation to start this tutorial.
+This tutorial assumes you have installed a working version of anaconda on your computer. Open the anaconda terminal and perform the steps under requirements and installation to start this tutorial.
 
 # requirements and installation
 In order to install the necessary packages and start jupyter notebook type in your anaconda terminal:
