@@ -39,7 +39,6 @@ Use the command line to navigate to the unzipped data folder you downloaded from
 
 cd C:\path\to\downloaded\folder
 
-Then, navigate to the downloaded folder. 
 Next type "dir" to explore the directory's contents.
 You should find a file named practical.yml.
 
