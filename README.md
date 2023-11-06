@@ -17,7 +17,7 @@ In order to install the necessary packages and start jupyter notebook type in yo
 4. jupyter notebook
 
 # Detailed installation instructions
-install anaconda from https://anaconda.com. You can install pycharm and/or spyder, but neither are required for this practical. Download the github repository by clicking code and subsequently click "Download zip". 
+install anaconda from https://anaconda.com. You can install pycharm and/or spyder, but neither are required for this practical. Download the github repository by clicking code and subsequently click "Download zip". Unzip the folder wherever you prefer. 
 
 For a clean setup, we will create a new python virtual environment. 
 A virtual environment ensures that we use an appropriate python version,
@@ -26,6 +26,8 @@ all the dependencies (i.e. required software packages) are there, and that the d
 We will delegate the work of creating/organising the virtual environment to anaconda. 
 
 ## Navigate to the correct folder
+
+### Windows
 Hit the windows key and type anaconda. You should see 
 anaconda prompt as a choice. Open the anaconda prompt. 
 
@@ -33,12 +35,15 @@ You should see a command line interface that looks something like:
 
 C:\Users\YourUserName> _ 
 
-Use the command line to navigate to the unzipped data folder you downloaded from github. 
-There, navigate to the downloaded folder. 
-type dir 
-to explore the directory's contents.
+Use the command line to navigate to the unzipped data folder you downloaded from github by typing 
+
+cd C:\path\to\downloaded\folder
+
+Then, navigate to the downloaded folder. 
+Next type "dir" to explore the directory's contents.
 You should find a file named practical.yml.
 
+### Mac 
 Navigate to the downloaded folder from github. Right-click on the folder and select "it open in new terminal window"
 You should see a command line interface that looks something like:
 
@@ -71,4 +76,4 @@ jupyter notebook
 If all is well, jupyter notebooks should open. Navigate to the notebooks folder and open the first notebook. 
  
 # Example dataset
-Example dataset is avalaible on zenodo : 10.5281/zenodo.10026857. Please download and unzip the data folder to the current directory where this README.md document resides. 
+Example dataset is avalaible on zenodo : https://zenodo.org/records/10026857. Please download and unzip the data folder to the current directory where this README.md document resides. 
