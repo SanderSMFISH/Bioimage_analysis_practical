@@ -31,7 +31,7 @@ anaconda prompt as a choice. Open the anaconda prompt.
 
 You should see a command line interface that looks something like:
 
-C:\Users\YourUserName> _ \end
+C:\Users\YourUserName> _ 
 
 Use the command line to navigate to the unzipped data folder you downloaded from github. 
 There, navigate to the downloaded folder. 
