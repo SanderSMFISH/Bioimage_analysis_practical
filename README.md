@@ -8,7 +8,7 @@ Notebooks
 
 This tutorial assumes you have installed a working version of anaconda on your computer (https://docs.anaconda.com/free/anaconda/install/index.html). Open the anaconda terminal and perform the steps under requirements and installation to start this tutorial.
 
-# requirements and installation
+# Requirements and installation
 In order to install the necessary packages and start jupyter notebook type in your anaconda terminal:
 
 1. cd /this/cloned or downloaded/github/repo
@@ -16,7 +16,7 @@ In order to install the necessary packages and start jupyter notebook type in yo
 3. conda activate practical
 4. jupyter notebook
 
-# detailed installation instructions
+# Detailed installation instructions
 install anaconda from https://anaconda.com. You can install pycharm and/or spyder, but neither are required for this practical. Download the github repository by clicking code and subsequently click "Download zip". 
 
 For a clean setup, we will create a new python virtual environment. 
@@ -25,7 +25,7 @@ all the dependencies (i.e. required software packages) are there, and that the d
 
 We will delegate the work of creating/organising the virtual environment to anaconda. 
 
-## navigate to the correct folder
+## Navigate to the correct folder
 Hit the windows key and type anaconda. You should see 
 anaconda prompt as a choice. Open the anaconda prompt. 
 
@@ -44,7 +44,7 @@ You should see a command line interface that looks something like:
 
 (base) User@user: ~/whereever/you/donwloaded/the/folder/from/github$ _
 
-## creation of the enviroment
+## Creation of the enviroment
 In your command line interface tells you that you are in the base environment - we have not created a custom 
 environment yet. Now, create a new environment by typing the following:
 
@@ -57,9 +57,11 @@ After the environment is created, we need to activate it. Type:
 conda activate practical
 
 On, windows, your command line should now show 
+
 (practical) C:\The\location\of\your\downloaded\folder> _ 
  
 On mac, you should see:
+
 (practical) User@user: ~C:/The/location/of/your/downloaded/folder$ _ 
  
 Then, open Jupyter Notebooks, by typing:
