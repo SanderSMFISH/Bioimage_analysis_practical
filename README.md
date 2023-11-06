@@ -17,11 +17,11 @@ In order to install the necessary packages and start jupyter notebook type in yo
 4. jupyter notebook
 
 # detailed installation instructions
-install anaconda from https://anaconda.com. You can install pycharm and/or spyder, but neither are required for this practical. Download the github repository by clicking code and subsequently "Download zip". 
+install anaconda from https://anaconda.com. You can install pycharm and/or spyder, but neither are required for this practical. Download the github repository by clicking code and subsequently click "Download zip". 
 
 For a clean setup, we will create a new python virtual environment. 
-A virtual environment ensures that we use an appropriate python version
-all the dependencies (i.e. required software packages) are there the dependencies for this project do not interfere with other software on your machine.
+A virtual environment ensures that we use an appropriate python version,
+all the dependencies (i.e. required software packages) are there, and that the dependencies for this project do not interfere with other software on your machine.
 
 We will delegate the work of creating/organising the virtual environment to anaconda. 
 
@@ -45,12 +45,17 @@ You should see a command line interface that looks something like:
 (base) User@user: ~/whereever/you/donwloaded/the/folder/from/github$ _
 
 ## creation of the enviroment
-In your command line interface tells you that you are in the base environment - we have not created a custom environment yet. Now, create a new environment by typing the following:
+In your command line interface tells you that you are in the base environment - we have not created a custom 
+environment yet. Now, create a new environment by typing the following:
+
 conda env create --name practical --file practical.yml 
+
 This tells anaconda to create a new environment, which is named "practical".
 
 After the environment is created, we need to activate it. Type:
+
 conda activate practical
+
 On, windows, your command line should now show 
 (practical) C:\The\location\of\your\downloaded\folder> _ 
  
