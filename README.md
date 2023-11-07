@@ -17,6 +17,7 @@ In order to install the necessary packages and start jupyter notebook type in yo
 4. jupyter notebook
 
 # Detailed installation instructions
+For those less familiar with anaconda and virtual enviroments, here a more detailed installation instruction is provided. 
 install anaconda from https://anaconda.com. You can install pycharm and/or spyder, but neither are required for this practical. Download the github repository by clicking code and subsequently click "Download zip". Unzip the folder wherever you prefer. 
 
 For a clean setup, we will create a new python virtual environment. 
@@ -43,7 +44,7 @@ Next type "dir" to explore the directory's contents.
 You should find a file named practical.yml.
 
 ### Mac 
-Navigate to the downloaded folder from github. Right-click on the folder and select "it open in new terminal window"
+Navigate to the downloaded folder from github. Right-click on the folder and select "open in new terminal window"
 You should see a command line interface that looks something like:
 
 (base) User@user: ~/whereever/you/donwloaded/the/folder/from/github$ _
@@ -54,7 +55,7 @@ environment yet. Now, create a new environment by typing the following:
 
 conda env create --name practical --file practical.yml 
 
-This tells anaconda to create a new environment, which is named "practical".
+This tells anaconda to create a new environment, which is named "practical". In the file practical.yml all the python libraries that need to be installed for this new enviroment are outlined. 
 
 After the environment is created, we need to activate it. Type:
 
